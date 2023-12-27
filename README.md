@@ -1,2 +1,9 @@
-# EmoVoice
-Project. The detection of emotional state by voice
+# EmoVoice Project. The detection of emotional state by voice
+Нейронная сеть для распознавания эмоций по голосу пациентов.
+
+Для работы с сетью нужно выполнить следующие шаги:
+1. Скачать и запустить файл Project14.ipynb с кодом нейросети в Google Colaboratory
+2. Для обучения скачать датасет на странице kaggle.com по ссылке:
+https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess/data
+3. Подгрузить датасет в блокнот на Google Colaboratory и запустить ячейки по порядку
+4. После обучения можно использовать сеть, загрузив аналогичным способом в папки с аналогичной иерархической структурой аудиофайлы для распознавания эмоций - классификация по 7 эмоциям: страх, гнев, отвращение, радость, удивление, печаль, покой.
